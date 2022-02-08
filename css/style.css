@@ -116,17 +116,17 @@ a {
 }
 .service {
   width: 80%;
-  text-align: center;
+  margin: 50px auto;
 }
 .service-ttl {
   font-size: 20px;
   color: rgb(88, 85, 85);
-  text-align: center;
+  margin: 10px 0;
 }
 .service-contents {
   text-align: center;
   display: grid;
-  grid-template-rows:  300px 300px;
+  grid-template-rows:  200px 200px;
   grid-template-columns: 2fr 2fr;
 }
 .service-box1 {
@@ -135,22 +135,30 @@ a {
   text-align: center;
   grid-column: 1/2;
   grid-row: 1/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .service-box2 {
   background: rgb(233, 59, 204);
   color: #fff;
   grid-column: 2/3;
   grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .service-box3 {
   background: rgb(233, 82, 208);
   color: #fff;
   grid-column: 2/3;
   grid-row: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .service-img1 {
   width: 30%;
-  
 }
 .service-img2 {
   width: 30%;

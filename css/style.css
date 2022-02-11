@@ -205,7 +205,13 @@ a {
 .blog {
   background: rgb(199, 198, 198);
   width: 100%;
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.blog-main {
+  width: 80%;
+  margin: 0 auto;
+  
 }
 .blog-ttl {
   margin-top: 10px;
@@ -213,7 +219,9 @@ a {
 }
 .blog-contents {
   display: flex;
-  justify-content: space-around;
+  justify-content:space-between;
+  margin-bottom: 20px;
+  width: 80%;
 } 
 .blog-img {
   position: relative;
@@ -268,6 +276,7 @@ a {
   width: 100%;
   background: #f2f2f2;
   padding-top: 50px;
+  text-align: center;
 }
 .company {
   font-size: 12px;
